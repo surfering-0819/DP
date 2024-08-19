@@ -1,10 +1,14 @@
 import { Outlet } from "react-router-dom";
 import { Container } from "@mui/material";
+import Header from "./Components/Header";
 function App() {
   return (
-    <Container maxWidth={"md"}>
-      <Outlet></Outlet>
-    </Container>
+    <>
+      <Header></Header>
+      <Container maxWidth={"md"}>
+        <Outlet></Outlet>
+      </Container>
+    </>
   );
 }
 

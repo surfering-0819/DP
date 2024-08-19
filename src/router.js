@@ -3,6 +3,7 @@ import App from "./App";
 import Home from "./Pages/Home";
 import SignUp from "./Pages/SignUp";
 import Portfolio from "./Pages/Portfolio";
+import Recomand from "./Pages/Recomand";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/sign-up",
         element: <SignUp></SignUp>,
+      },
+      {
+        path: "recomand",
+        element: <Recomand></Recomand>,
       },
     ],
   },
